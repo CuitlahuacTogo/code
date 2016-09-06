@@ -1,0 +1,15 @@
+    public class Conversion
+    {
+        int x = 12345;
+        public long Implicita()
+        {
+            long y = x;
+            return y;
+        }
+
+        public short Explicita()
+        {
+            short z = (short)x;
+            return z;
+        }               
+    }
